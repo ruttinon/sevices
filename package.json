@@ -1,0 +1,16 @@
+{
+  "name": "energy-services-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python run_dev.py",
+    "tunnel": "python run_backend_tunnel.py",
+    "setup": "powershell -Command \"Remove-Item -Path backend/venv -Recurse -Force -ErrorAction SilentlyContinue; python -m venv backend/venv; ./backend/venv/Scripts/python -m pip install -r backend/requirements.txt; ./backend/venv/Scripts/python -m pip install 'opencv-python<4.11' 'numpy<2.0'; npm --prefix frontend install\"",
+    "kill-ports": "powershell -Command \"netstat -ano | findstr :8000 | ForEach-Object { taskkill /F /PID $_.Split()[-1] }; netstat -ano | findstr :5173 | ForEach-Object { taskkill /F /PID $_.Split()[-1] }\"",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-react-spreadsheet": "^32.2.9"
+  }
+}

@@ -1,0 +1,80 @@
+--- Analysis for c:\Users\promb\Desktop\sevices\backend\teamp\Templat-Report.xlsx ---
+Sheet names: ['Cover', 'Page (B)', 'Page (1)', 'Page (2)', 'Page (4)', 'Page (5)']
+
+Sheet 'Cover' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: []
+
+Sheet 'Page (B)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (1)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (2)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (4)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (5)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+==================================================
+--- Analysis for c:\Users\promb\Desktop\sevices\uploads\projects\Oakwood Suites Bangkok\Oakwood RMS Maintenance\reports\12-03-2026_0827_oakwood-rms-maintenance_oakwood-rms-maintenance_ma_0001.xlsx ---
+Sheet names: ['Cover', 'Page (B)', 'Page (1)', 'Page (2)', 'Page (4)', 'Page (5)']
+
+Sheet 'Cover' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: []
+
+Sheet 'Page (B)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (1)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (2)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (4)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+Sheet 'Page (5)' Columns (non-empty): []
+First 5 rows of these columns:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+
+==================================================

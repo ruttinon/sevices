@@ -1,0 +1,26 @@
+/* ─── layout.css — Clean White + Blue ─────────────────────────────────────── */
+
+.page-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+  font-family: 'Sarabun', 'Segoe UI', system-ui, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    max-width: 960px;
+    padding: 28px 20px 56px;
+  }
+
+  .single-column .page-wrapper {
+    max-width: 680px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page-wrapper {
+    max-width: 1200px;
+    padding: 32px 24px 64px;
+  }
+}

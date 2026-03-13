@@ -1,0 +1,32 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2021: true, node: true },
+  ignorePatterns: ['dist/', 'docs/', 'node_modules/', '**/*.test.jsx', '**/*.test.js'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    ecmaFeatures: { jsx: true },
+  },
+  settings: { react: { version: 'detect' } },
+  plugins: ['react', 'react-hooks', 'react-refresh'],
+  rules: {
+    'no-unused-vars': 'off',
+    'no-undef': 'off',
+    'no-empty': 'off',
+    'no-useless-escape': 'off',
+    'no-control-regex': 'off',
+    'no-fallthrough': 'off',
+    'no-cond-assign': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'react/jsx-no-undef': 'off',
+    'react/no-unescaped-entities': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    'react-refresh/only-export-components': 'off',
+  },
+};

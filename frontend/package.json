@@ -1,0 +1,41 @@
+{
+  "name": "energy-services-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-base": "^32.2.9",
+    "@syncfusion/ej2-buttons": "^32.2.9",
+    "@syncfusion/ej2-dropdowns": "^32.2.9",
+    "@syncfusion/ej2-grids": "^32.2.9",
+    "@syncfusion/ej2-inputs": "^32.2.8",
+    "@syncfusion/ej2-lists": "^32.2.7",
+    "@syncfusion/ej2-navigations": "^32.2.9",
+    "@syncfusion/ej2-popups": "^32.2.8",
+    "@syncfusion/ej2-react-spreadsheet": "^32.2.9",
+    "@syncfusion/ej2-splitbuttons": "^32.2.7",
+    "@syncfusion/ej2-spreadsheet": "^32.2.9",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "vite": "^5.0.0"
+  }
+}
